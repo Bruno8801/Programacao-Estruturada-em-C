@@ -1,0 +1,3 @@
+Idade: 31
+Peso: 72.00
+Nome: Bruno Silva

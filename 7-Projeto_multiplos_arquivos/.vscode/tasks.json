@@ -1,0 +1,66 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: construir cadastro_concurso",
+            "command": "C:/mingw64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-finput-charset=UTF-8",
+                "-fexec-charset=UTF-8",
+                "-std=c11",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Iinclude",
+                "-g",
+                "src/3-multiplos_arquivos.c",
+                "lib/candidato.c",
+                "lib/arquivo.c",
+                "-o",
+                "bin\\cadastro_concurso.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "Compila o programa completo do cadastro de concurso."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: compilar arquivo C ativo",
+            "command": "C:/mingw64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-finput-charset=UTF-8",
+                "-fexec-charset=UTF-8",
+                "-std=c11",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-g",
+                "${file}",
+                "-o",
+                "bin\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compila somente o arquivo C atualmente aberto em bin\\<nome>.exe."
+        }
+    ],
+    "version": "2.0.0"
+}

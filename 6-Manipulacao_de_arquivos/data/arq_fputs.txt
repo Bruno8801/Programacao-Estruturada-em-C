@@ -1,0 +1,2 @@
+Essa é a primeira string.
+Essa é a segunda string

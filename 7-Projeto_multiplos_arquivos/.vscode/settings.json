@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "c": "& \"C:\\mingw64\\bin\\gcc.exe\" -std=c11 -Wall -Wextra -pedantic -finput-charset=UTF-8 -fexec-charset=UTF-8 \"$fullFileName\" -o \"$workspaceRoot\\bin\\$fileNameWithoutExt.exe\"; if ($LASTEXITCODE -eq 0) { & \"$workspaceRoot\\bin\\$fileNameWithoutExt.exe\" }"
+    }
+}

@@ -1,0 +1,5 @@
+Mateus Cardoso; 7; 8; 9
+Carlos Alberto; 6.8; 8; 7
+Maria Antonieta; 9; 10; 8.5
+Lucas Daniel; 4; 5.5; 7
+Bruno Rodrigues; 9.2; 7.8; 8.9

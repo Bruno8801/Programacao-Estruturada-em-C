@@ -68,8 +68,7 @@ Projeto desenvolvido utilizando múltiplos arquivos (`.c` e `.h`), aplicando con
 Programacao-Estruturada-C
 │
 ├── Introducao
-├── Vetores-e-Matrizes
-├── Strings
+├── Vetores_Matrizes_Strings
 ├── Structs
 ├── Ponteiros
 ├── Alocacao-Dinamica
@@ -105,7 +104,7 @@ Programacao-Estruturada-C
 ### Clonar o Repositório
 
 ```bash
-git clone https://github.com/Bruno8801/Programacao-Estruturada-C.git
+git clone https://github.com/Bruno8801/Programacao-Estruturada-em-C.git
 ```
 
 ### Acessar a Pasta
